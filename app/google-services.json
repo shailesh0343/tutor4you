@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311209326248",
+    "firebase_url": "https://tutor4u-46a66.firebaseio.com",
+    "project_id": "tutor4u-46a66",
+    "storage_bucket": "tutor4u-46a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311209326248:android:877496e1f332ddb2",
+        "android_client_info": {
+          "package_name": "io.traitsoft.tutor4u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311209326248-o656bi11somrp17h286vluu7mn7k5c7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcIwF49EtpOlnKGhrPOd1UpNtOlTlPUNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
