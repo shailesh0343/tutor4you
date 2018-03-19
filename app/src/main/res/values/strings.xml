@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tutor4u</string>
+    <string name="main_screen_disc">The one and only app that provides teachers at your location.</string>
+    <string name="google_signin_btn_text">Continue with Google</string>
+    <string name="phone_signin_btn_text">Continue with Phone</string>
+    <string name="enter_otp_below">Enter the OTP below in case we failed to detect the SMS automatically</string>
 </resources>

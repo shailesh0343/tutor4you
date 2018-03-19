@@ -9,17 +9,68 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="56dp"
-        android:paddingLeft="24dp"
-        android:paddingRight="24dp"
-        android:gravity="center">
+        android:layout_height="match_parent">
 
         <ImageView
-            android:src="@drawable/logo"
+            android:src="@drawable/login_back"
             android:layout_width="wrap_content"
-            android:layout_height="72dp"
-            android:layout_marginBottom="100dp"/>
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:paddingBottom="10dp"
+            android:background="@drawable/main_activity_background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="WELCOME TO TUTOR4U"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/main_screen_disc"
+            android:textColor="@color/secondary_text"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="I'm a"
+            android:textColor="@color/secondary_text"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="30dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:textColor="@color/secondary_text"
+                android:buttonTint="@color/colorAccent"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher"
+                android:textColor="@color/secondary_text"
+                android:buttonTint="@color/colorAccent"/>
+
+        </RadioGroup>
 
         <!-- Google Label -->
         <android.support.v7.widget.AppCompatButton
@@ -31,7 +82,7 @@
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:textAllCaps="false"
-            android:text="Sign in with Google" />
+            android:text="@string/google_signin_btn_text" />
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/phone_login"
@@ -42,9 +93,17 @@
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
             android:textAllCaps="false"
-            android:text="Sign in with Phone"
+            android:text="@string/phone_signin_btn_text"
             android:drawableLeft="@drawable/ic_phone_black_24dp"/>
 
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondary_text"
+            android:buttonTint="@color/colorAccent"
+            android:text="accept term and conditions"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
