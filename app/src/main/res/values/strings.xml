@@ -4,4 +4,15 @@
     <string name="google_signin_btn_text">Continue with Google</string>
     <string name="phone_signin_btn_text">Continue with Phone</string>
     <string name="enter_otp_below">Enter the OTP below in case we failed to detect the SMS automatically</string>
+    <string name="teacher_label">Teacher</string>
+    <string name="student_label">Student</string>
+    <string name="i_am_a">I\'m a</string>
+    <string name="welcome_to_tutor4u">WELCOME TO TUTOR4U</string>
+    <string name="accept_terms">accept term and conditions</string>
+    <string name="enter_mobile_number">Enter Mobile Number To Receive OTP</string>
+    <string name="country_code_india">+91</string>
+    <string name="mobile">Mobile</string>
+    <string name="otp">OTP</string>
+    <string name="send_otp_btn_text">send otp</string>
+    <string name="varify_and_login"><![CDATA[varify & login]]></string>
 </resources>

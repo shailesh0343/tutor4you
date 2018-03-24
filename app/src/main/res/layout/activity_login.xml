@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:id="@+id/login_layout">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="WELCOME TO TUTOR4U"
+            android:text="@string/welcome_to_tutor4u"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/primary_text"
             android:textSize="20sp"
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="I'm a"
+            android:text="@string/i_am_a"
             android:textColor="@color/secondary_text"
             android:textSize="15sp"
             android:fontFamily="sans-serif-medium"
@@ -59,14 +59,14 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Student"
+                android:text="@string/student_label"
                 android:textColor="@color/secondary_text"
                 android:buttonTint="@color/colorAccent"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Teacher"
+                android:text="@string/teacher_label"
                 android:textColor="@color/secondary_text"
                 android:buttonTint="@color/colorAccent"/>
 
@@ -74,11 +74,12 @@
 
         <!-- Google Label -->
         <android.support.v7.widget.AppCompatButton
+            android:id="@+id/google_login"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:drawableLeft="@drawable/googleg_standard_color_18"
+            android:drawableStart="@drawable/googleg_standard_color_18"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:textAllCaps="false"
@@ -94,7 +95,7 @@
             android:paddingLeft="20dp"
             android:textAllCaps="false"
             android:text="@string/phone_signin_btn_text"
-            android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+            android:drawableStart="@drawable/ic_phone_black_24dp"/>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -102,7 +103,7 @@
             android:layout_marginTop="10dp"
             android:textColor="@color/secondary_text"
             android:buttonTint="@color/colorAccent"
-            android:text="accept term and conditions"
+            android:text="@string/accept_terms"
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
