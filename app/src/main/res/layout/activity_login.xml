@@ -54,7 +54,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_gravity="center_horizontal">
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -74,33 +75,21 @@
 
         <!-- Google Label -->
         <android.support.v7.widget.AppCompatButton
-            android:id="@+id/google_login"
+            android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:drawableStart="@drawable/googleg_standard_color_18"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:textAllCaps="false"
-            android:text="@string/google_signin_btn_text" />
-
-        <android.support.v7.widget.AppCompatButton
-            android:id="@+id/phone_login"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:textAllCaps="false"
-            android:text="@string/phone_signin_btn_text"
-            android:drawableStart="@drawable/ic_phone_black_24dp"/>
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="@string/signin_signup_btn_text" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:textColor="@color/secondary_text"
             android:buttonTint="@color/colorAccent"
             android:text="@string/accept_terms"

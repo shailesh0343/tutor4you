@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Tutor4u</string>
     <string name="main_screen_disc">The one and only app that provides teachers at your location.</string>
-    <string name="google_signin_btn_text">Continue with Google</string>
-    <string name="phone_signin_btn_text">Continue with Phone</string>
+    <string name="signin_signup_btn_text">SignIn/SignUp</string>
     <string name="enter_otp_below">Enter the OTP below in case we failed to detect the SMS automatically</string>
     <string name="teacher_label">Teacher</string>
     <string name="student_label">Student</string>
@@ -15,4 +14,18 @@
     <string name="otp">OTP</string>
     <string name="send_otp_btn_text">send otp</string>
     <string name="varify_and_login"><![CDATA[varify & login]]></string>
+
+    <string name="facebook_application_id" translatable="false">1921155228194541</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1921155228194541</string>
+    <string name="profile">Profile</string>
+    <string name="ongoing_classes">Ongoing Classes</string>
+    <string name="inbox">Inbox</string>
+    <string name="search">Search</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
 </resources>
