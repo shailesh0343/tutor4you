@@ -28,6 +28,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserInfo;
 
+import io.traitsoft.tutor4u.fragments.InboxFragment;
+import io.traitsoft.tutor4u.fragments.OngoingClassesFragment;
+import io.traitsoft.tutor4u.fragments.ProfileFragment;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     private FirebaseAuth.AuthStateListener authListener;
@@ -123,12 +127,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //initializing the fragment object which is selected
         switch (itemId) {
             case R.id.nav_profile:
+                fragment = new ProfileFragment();
 
                 break;
             case R.id.nav_inbox:
+                fragment = new InboxFragment();
 
                 break;
             case R.id.nav_ongoing:
+                fragment = new OngoingClassesFragment();
 
                 break;
             case R.id.nav_about:
